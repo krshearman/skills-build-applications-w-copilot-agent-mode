@@ -33,6 +33,7 @@ def api_root(request, format=None):
 
 urlpatterns = [
     path('', api_root, name='api-root'),
+    path('api/', api_root, name='api-root'),
     path("admin/", admin.site.urls),
     path('api/users/', UsersView.as_view(), name='users'),
     path('api/teams/', TeamsView.as_view(), name='teams'),

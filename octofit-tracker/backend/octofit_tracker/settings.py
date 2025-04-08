@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-acva)*l6olj6)@s7x8(h*0ed#d8e$76wdvf@%!^li63#y07(ej
 DEBUG = True
 
 # Allow all hosts
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev']
 
 
 # Application definition
